@@ -1,7 +1,7 @@
 {
   "name": "types",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A place to store types/interfaces that are shared across the frontend and backend.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Proj-Ambassador/types.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Proj-Ambassador",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Proj-Ambassador/types/issues"
