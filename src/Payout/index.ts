@@ -8,4 +8,5 @@ export interface PayoutDocument extends Document {
     toAmbassadorId: string | AmbassadorDocument;
     paymentPlanId: string | PaymentPlanDocument;
     amount: number;
+    wasSuccessful: boolean;
 }
