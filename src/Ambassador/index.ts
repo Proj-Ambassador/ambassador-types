@@ -9,4 +9,5 @@ export interface AmbassadorDocument extends Document {
     phoneNumber: string;
     organizationId: string | OrganizationDocument;
     paymentPlanId: string | PaymentPlanDocument;
+    skipNextPayment: boolean;
 }
