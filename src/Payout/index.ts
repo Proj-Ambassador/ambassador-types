@@ -9,4 +9,5 @@ export interface PayoutDocument extends Document {
     paymentPlanId: string | PaymentPlanDocument;
     amount: number;
     wasSuccessful: boolean;
+    stripeChargeId?: string;
 }
