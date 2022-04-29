@@ -5,8 +5,8 @@ import { PaymentPlanDocument } from '../PaymentPlan';
 
 export interface PayoutDocument extends Document {
     organizationId: string | OrganizationDocument;
-    toAmbassadorId: string | AmbassadorDocument;
-    paymentPlanId: string | PaymentPlanDocument;
+    toAmbassadorId: string | AmbassadorDocument | null;
+    paymentPlanId: string | PaymentPlanDocument | null;
     amount: number;
     wasSuccessful: boolean;
     errorMsg?: string;
