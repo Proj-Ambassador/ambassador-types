@@ -11,4 +11,5 @@ export interface PayoutDocument extends Document {
     wasSuccessful: boolean;
     errorMsg?: string;
     stripeChargeId?: string;
+    toName: string;
 }
