@@ -10,4 +10,13 @@ export interface AmbassadorDocument extends Document {
     organizationId: string | OrganizationDocument;
     paymentPlanId: string | PaymentPlanDocument;
     skipNextPayment: boolean;
+    address: Address;
+}
+
+export interface Address {
+    street1: string;
+    city: string;
+    state: string;
+    zip: string;
+    country: string;
 }
