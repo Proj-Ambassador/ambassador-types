@@ -5,4 +5,5 @@ export * from './PendingOrgUserInvitation';
 export * from './Payout';
 export * from './PaymentPlan';
 export * from './Ambassador';
+export * from './Referral';
 export * from './misc';
