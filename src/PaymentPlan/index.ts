@@ -1,5 +1,6 @@
 import { Document } from 'mongoose';
 import { OrganizationDocument } from '../Organization';
+import { TierDocument } from '../Tier';
 
 export interface PaymentPlanDocument extends Document {
     name: string;
@@ -12,4 +13,5 @@ export interface PaymentPlanDocument extends Document {
     nextScheduledTimeToBeExecuted: Date;
     dayFrequency: number;
     isActive: boolean;
+    tiers?: TierDocument[]; // will exist depending on the endpoint
 }
