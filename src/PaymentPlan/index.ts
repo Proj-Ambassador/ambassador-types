@@ -5,6 +5,7 @@ import { TierDocument } from '../Tier';
 export interface PaymentPlanDocument extends Document {
     name: string;
     isFixedAmount: boolean;
+    isVariableAmount: boolean;
     fixedAmount: number;
     isWebhook: boolean;
     webhookUrl: string;
